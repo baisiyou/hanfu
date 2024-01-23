@@ -43,12 +43,14 @@ export const services = [
 ]
 
 export const products_url = 'https://hanfu-axjb.onrender.com/api/products'
+//'https://hanfu-axjb.onrender.com/api/products'
 //'http://localhost:4000/api/products'
 //'https://us-east-1.aws.data.mongodb-api.com/app/application-1-bybhq/endpoint/products2'
 //
 //'https://course-api.com/react-store-products'
 
-export const single_product_url = 'https://hanfu-axjb.onrender.com/api/products/byId/'
+export const single_product_url = `https://hanfu-axjb.onrender.com/api/products/byId/`
+//`https://hanfu-axjb.onrender.com/api/products/byId/`
 //`http://localhost:4000/api/products/byId/`
 //`https://course-api.com/react-store-single-product?id=`
 
@@ -68,4 +70,4 @@ export const hardcodedProducts = [
     // Add other fields as needed
   },
   // Add more products as needed
-];
+]
